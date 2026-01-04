@@ -1,0 +1,8 @@
+fastapi 
+uvicorn[standard] 
+python-dotenv 
+pydantic 
+tensorflow==2.19.0
+numpy 
+scikit-learn 
+joblib
