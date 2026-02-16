@@ -3,7 +3,7 @@ uvicorn[standard]
 python-dotenv 
 pydantic 
 pydantic-settings
-tensorflow
+tensorflow-cpu==2.20.0
 # ==2.20.0
 # tensorflow==2.19.0
 tensorboard
