@@ -2,12 +2,16 @@ fastapi
 uvicorn[standard] 
 python-dotenv 
 pydantic 
-tensorflow==2.20.0
+tensorflow
+# ==2.20.0
 # tensorflow==2.19.0
-tensorboard==2.20.0
+tensorboard
+# ==2.20.0
 # tensorboard==2.19.0
-keras==3.10.0
-numpy==2.0.2
+keras
+# ==3.10.0
+numpy
+# ==2.0.2
 scikit-learn 
 joblib
 openai
