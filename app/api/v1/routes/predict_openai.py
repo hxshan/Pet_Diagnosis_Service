@@ -53,7 +53,7 @@ def predict_with_openai(req: PetDiagnosisRequest):
     New experimental route that uses OpenAI to classify whether the
     user wants a diagnosis. If OpenAI determines it's a diagnosis request
     we run the existing LSTM pipeline and return the same structure as
-    the original /predict endpoints. Otherwise we return the LLM chat reply.
+    the original /predict endpoints. Otherwise we return the LLM chat reply
     """
     try:
         # Determine which LLM source to use: local Llama (fast, if enabled),
