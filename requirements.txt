@@ -18,3 +18,5 @@ joblib
 openai
 xgboost
 pandas
+Pillow
+python-multipart
