@@ -11,8 +11,14 @@ from xgboost import XGBClassifier
 
 router = APIRouter()
 
-MODEL_PATH = "artifacts/xgb_vet_verified_3000.json"
-META_PATH  = "artifacts/xgb_vet_verified_3000_meta.pkl"
+# MODEL_PATH = "artifacts/xgb_vet_verified_3000.json"
+# META_PATH  = "artifacts/xgb_vet_verified_3000_meta.pkl"
+
+# MODEL_PATH = "artifacts/xgb_vet_verified_3000_v2.json"
+# META_PATH  = "artifacts/xgb_vet_verified_3000_v2_meta.pkl"
+
+MODEL_PATH = "artifacts/xgb_vet_verified_3000_v3.json"
+META_PATH  = "artifacts/xgb_vet_verified_3000_v3_meta.pkl"
 
 # ── Runtime state ─────────────────────────────────────────────────────────────
 xgb_model       = None
