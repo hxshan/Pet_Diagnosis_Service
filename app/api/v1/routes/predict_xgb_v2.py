@@ -11,8 +11,8 @@ from xgboost import XGBClassifier
 
 router = APIRouter()
 
-# MODEL_PATH = "artifacts/xgb_vet_verified_3000.json"
-# META_PATH  = "artifacts/xgb_vet_verified_3000_meta.pkl"
+# MODEL_PATH = "artifacts/xgb_vet_verified_3000_v1.json"
+# META_PATH  = "artifacts/xgb_vet_verified_3000_meta_v1.pkl"
 
 # MODEL_PATH = "artifacts/xgb_vet_verified_3000_v2.json"
 # META_PATH  = "artifacts/xgb_vet_verified_3000_v2_meta.pkl"
