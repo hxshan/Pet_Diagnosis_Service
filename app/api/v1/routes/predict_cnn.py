@@ -10,7 +10,8 @@ from tensorflow import keras
 router = APIRouter()
 
 # Path to your CNN model in artifacts. Change if your file has a different name.
-MODEL_PATH = "artifacts/dog_skin_cnn_mobilenet2.keras"
+# MODEL_PATH = "artifacts/dog_skin_cnn_mobilenet2.keras"
+MODEL_PATH = "artifacts/dog_skin_cnn_mobilenet3.keras"
 
 # Example class names used in your Colab snippet. Update to match your model's classes if needed.
 CLASS_NAMES = [
@@ -18,9 +19,20 @@ CLASS_NAMES = [
     "Fungal_infections",
     "Healthy",
     "Hypersensitivity",
+    "Invalid",
     "demodicosis",
-    "ringworm",
+    "ringworm"
 ]
+
+
+# CLASS_NAMES = [
+#     "Dermatitis",
+#     "Fungal_infections",
+#     "Healthy",
+#     "Hypersensitivity",
+#     "demodicosis",
+#     "ringworm",
+# ]
 
 
 def load_model():
